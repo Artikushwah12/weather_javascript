@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="search-box">
+            <select id="location">
+                <option value="delhi">delhi</option>
+                <option value="mathura">mathura</option>
+                <option value="agra">agra</option>
+            </select>
+            <button id="search-btn">Get Weather</button>
+        </div>
+        <div class="weather-info">
+            <h2 id="location-name"></h2>
+            <div class="icon" id="weather-icon"></div>
+            <div id="temperature"></div>
+            <div id="description"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
